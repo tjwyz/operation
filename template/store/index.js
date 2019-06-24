@@ -5,7 +5,7 @@ import config from '../config';
 
 import { getQueryString, getCookie } from '../assets/js/utils.js';
 
-import { isInKwai, isAndroid } from '@/utils/device';
+import { isInKwai, isAndroid } from '../assets/js/device';
 
 import { showToast } from '../assets/js/communiateNA';
 

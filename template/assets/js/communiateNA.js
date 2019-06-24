@@ -1,6 +1,6 @@
 import {
     isInKwai,
-} from '@/utils/device';
+} from './device';
 
 import {
     ANYLYSE_PREFIX,
