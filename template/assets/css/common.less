@@ -1,0 +1,42 @@
+@placeHolderColor: #5a52e1;
+@highLightColor: #ffe15f;
+@bgColor: #fff;
+@bodyBgColor: #fff;
+@fixBottomHeight: 1.1rem;
+@crossWidth: 7.5rem;
+@purpleColor: #560f79;
+@inActiveOpacity: 0.4;
+@textColor: #ffffff;
+@width: 6.82rem;
+@toastBgColor: #3b43fc;
+@toastBtnColor: #ff438d;
+
+.gradientText(@from: #ff973d, @to: #f24835) {
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, @from, @to);
+}
+
+.inActive() {
+    opacity: @inActiveOpacity;
+}
+
+.textOverflowEllipsis() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.vertical-writing-mode {
+    writing-mode: vertical-rl;
+}
+
+
+.touchEnd() {
+    &:active {
+        opacity: 0.7;
+    }
+}
+

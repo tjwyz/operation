@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{include '../../../common/widgets/h5HeadMeta.art'}}
+    <title></title>
+</head>
+<body ontouchstart="">
+    <script type="text/javascript">
+        /iPad|iPhone/.test(window.navigator.userAgent) && (document.body.className += ' ios');
+        /Kwai\/|Kwai_Lite\/|Kwai_Pro\//i.test(window.navigator.userAgent) && (document.body.className += ' kwai');
+    </script>
+    <div id="app"></div>
+    {{include '../../../common/widgets/bottomStatic.art'}}
+</body>
+</html>
