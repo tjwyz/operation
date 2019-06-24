@@ -3,7 +3,7 @@
  * @author Liuming
  * @date 2016-07-28
  */
-import { getCookie } from './cookie';
+import { getCookie } from './utils';
 
 var ua = navigator.userAgent;
 

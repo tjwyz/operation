@@ -90,7 +90,7 @@ new Vue({
     components: {
         App,
     },
-    template: '<App/>',
+    render: c => c(App),
 });
 
 new Vue({
