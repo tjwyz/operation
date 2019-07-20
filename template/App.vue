@@ -1,12 +1,6 @@
 <template>
-    <div class="app">
-        <div id="navbar"></div>
-
-        <div id="app">
-            <router-view></router-view>
-        </div>
-
-        <div id="toast"></div>
+    <div id="app">
+        <router-view></router-view>
     </div>
 </template>
 <script>

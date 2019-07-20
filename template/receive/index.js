@@ -89,7 +89,8 @@ class Receives {
         tagName: 'back',
     })
     back() {
-        this.$router.back();
+        // this.$router.back();
+        ksBridge.popBack();
     }
 
     /*

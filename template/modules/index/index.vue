@@ -1,14 +1,14 @@
 <template>
     <div class="page-app index">
+        <nav-bar></nav-bar>
         <div @click="click">click</div>
     </div>
 </template>
 
 <script>
+import navBar from '../../components/navbar';
 import { mapState, mapGetters } from 'vuex';
-
 import debounce from 'lodash/debounce';
-
 import receives from '../../receive/index';
 
 export default {
@@ -30,7 +30,7 @@ export default {
 
     },
     components: {
-
+        navBar,
     },
 
     watch: {
