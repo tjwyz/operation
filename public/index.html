@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <link rel="shortcut icon" href="//ali.static.yximgs.com/s1/i/favicon-eb2e5f4482.ico" type="image/x-icon">
+    <title>活动页</title>
+    <script type="text/javascript">
+        (function flexible() {
+            var docEl = document.documentElement;
+            var width = Math.min(docEl.clientWidth, 750);
+            var e = width / 7.5;
+            docEl.style.fontSize = e + 'px';
+            // 修正系统字体调整造成的布局问题
+            var realitySize = parseFloat(window.getComputedStyle(docEl).fontSize);
+            if (e !== realitySize) {
+                e = e * e / realitySize;
+                docEl.style.fontSize = e + 'px';
+            }
+            window.addEventListener('resize', flexible);
+        }());
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>请开启浏览器的 JavaScript 功能，否则页面无法正常工作</strong>
+    </noscript>
+    <div id="app"></div>
+
+    <script type="text/javascript" src="https://static.yximgs.com/udata/pkg/fe/bodymoving.6066d35b.js"></script>
+    <script type="text/javascript" src="//ali.static.yximgs.com/udata/pkg/fe/ks-log.1.0.18.js" data-autopv="true" crossorigin="anonymous"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
